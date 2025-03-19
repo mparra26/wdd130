@@ -19,9 +19,15 @@
 }
 
 blockquote {
-	
+    margin: 0;
+
 }
 
 cite {
+    display: block;
+    border-top: 1px dotted white;
+    text-align: right;
+    font-size: smaller;
+    
 	
 }
