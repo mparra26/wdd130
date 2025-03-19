@@ -1,5 +1,5 @@
-nav { 
-    background-color : lightblue; 
+nav {
+    background-color: lightblue;
     padding: 10px;
 }
 
@@ -9,15 +9,15 @@ nav a {
     padding: 20px;
 }
 
-h1{
+h1 {
     color: lightblue;
 }
 
 img {
-   width: 150px;
-   height: auto;
-   border: 1px solid black;
-   box-shadow: 0 0 30px gray; 
+    width: 150px;
+    height: auto;
+    border: 1px solid black;
+    box-shadow: 0 0 30px gray;
 }
 
 p {
