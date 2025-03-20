@@ -64,7 +64,17 @@ aside img {
 /* Paragraphs */
 p {
     padding: 0;
-    margin: 10px 0;
+    
+}
+
+img {
+    position: float;
+    margin: auto; 
+    border: #333;
+    padding: 0;
+    background-color: red;
+    width: auto;
+    height: auto;
 }
 
 /* Footer */
@@ -73,8 +83,11 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
+    margin-top: 10px;
+    border-top: 10px;
 }
 
 main img {
+    position: float;
 
 }
