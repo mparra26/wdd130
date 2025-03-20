@@ -29,6 +29,7 @@ cite {
     border-top: 1px dotted white;
     text-align: right;
     font-size: smaller;
+    padding-top: 3px;
 }
 
 /* Main Section */
@@ -67,7 +68,7 @@ p {
     
 }
 
-img {
+main img {
     position: float;
     margin: auto; 
     border: #333;
@@ -85,9 +86,4 @@ footer {
     padding: 10px 0;
     margin-top: 10px;
     border-top: 10px;
-}
-
-main img {
-    position: float;
-
 }
