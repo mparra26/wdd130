@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+}
+
+/* Header Section */
+header {
+    display: grid;
+    grid-template-columns: auto 1fr auto;  /* Logo, h1, and nav */
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+.logo {
+    width: 100px;
+}
+
+nav {
+    display: flex;
+    gap: 15px;  /* Space between navigation links */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* History Section */
+.history {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Adventures Section */
+.adventures {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);  /* 5 equal-width columns */
+    gap: 10px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+figure {
+    margin: 0;
+    text-align: center;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+figcaption {
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+/* Footer Section */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+}
+
+footer .social {
+    display: flex;
+    gap: 10px;
+}
+
+footer .social img {
+    width: 30px;
+    height: 30px;
+}

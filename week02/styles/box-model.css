@@ -1,0 +1,93 @@
+/* Callout Box */
+.callout {
+    max-width: 400px;
+    margin: 10px auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    /* Adjusted padding to prevent overflow */
+    background-color: #247;
+    color: white;
+}
+
+/* Callout Image */
+.callout img {
+    float: right;
+    margin: 0 0 10px 15px;
+    border: 1px solid black;
+    padding: 3px;
+    background-color: gray;
+    width: 100px;
+    height: auto;
+}
+
+/* Blockquote Styling */
+blockquote {
+    margin: 0;
+}
+
+cite {
+    display: block;
+    border-top: 1px dotted white;
+    text-align: right;
+    font-size: smaller;
+    padding-top: 3px;
+}
+
+/* Main Section */
+main {
+    display: block;
+    /* Ensures correct box model behavior */
+    width: 100%;
+    /* Ensures responsiveness */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+/* Aside Section */
+aside {
+    background-color: #f4f4f4;
+    color: darkblue;
+    padding: 15px;
+    border-left: 5px solid #ccc;
+    max-width: 600px;
+    /* Added to prevent excessive width */
+    margin: 20px auto;
+}
+
+/* Aside Image */
+aside img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Paragraphs */
+p {
+    padding: 0;
+
+}
+
+main img {
+    position: float;
+    margin: auto;
+    border: #333;
+    padding: 0;
+    background-color: red;
+    width: 150px;
+    height: auto;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 15px;
+    border-top: 15px solid green;
+}

@@ -1,0 +1,34 @@
+:root {
+    --primary-color: #0047AB;
+    --secondary-color: #FFD700;
+    --accent1-color: #228B22;
+    --accent2-color: #FF6347;
+}
+
+/* General Styling */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Hero section styling */
+.hero {
+    position: relative; /* Criterion 11: Hero positioned relative */
+}
+.hero h1, .hero article {
+    position: absolute; /* Criterion 11: Positioned absolutely */
+    top: 20px;
+    left: 20px;
+    color: white;
+}
+
+/* Criterion 12: Float the article image */
+article img.float-image {
+    float: right;
+    margin-left: 10px;
+}
+
+/* Criterion 13: Social media links styling */
+.social-media a img {
+    text-decoration: none;
+    margin: 5px;
+}
