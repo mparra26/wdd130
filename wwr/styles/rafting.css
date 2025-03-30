@@ -102,3 +102,9 @@ footer .social img {
     width: 30px;
     height: 30px;
 }
+
+.google-map {
+    border: 0;  /* Removes the border around the iframe */
+    width: 100%; /* Optional: Makes the map responsive */
+    height: 450px; /* Ensures a consistent height for the map */
+}
